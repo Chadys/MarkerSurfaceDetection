@@ -1,0 +1,8 @@
+version: '3.1'
+services:
+  marker_surface_detect:
+    build: .
+    volumes:
+      - .:/opt/docker/src
+    devices:
+      - “/dev/video0:/dev/video0”
