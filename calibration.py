@@ -11,7 +11,7 @@ objp[:,:2] = np.mgrid[0:7,0:6].T.reshape(-1,2)
 objpoints = [] # 3d point in real world space
 imgpoints = [] # 2d points in image plane.
 
-cap = cv2.VideoCapture()
+cap = cv2.VideoCapture(0)
 found = 0
 while(found < 10):  # Here, 10 can be changed to whatever number you like to choose
     ret, img = cap.read() # Capture frame-by-frame
@@ -34,6 +34,6 @@ cv2.destroyAllWindows()
 ret, mtx, dist, rvecs, tvecs = cv2.calibrateCamera(objpoints, imgpoints, gray.shape[::-1], None, None)
 
 # It's very important to transform the matrix to list.
-data = {'camera_matrix': np.asarray(mtx).tolist(), 'dist_coeff': np.asarray(dist).tolist()}
+data = {'cameraMatrix': np.asarray(mtx).tolist(), 'distCoeffs': np.asarray(dist).tolist()}
 with open("calibration.yaml", "w") as f:
     yaml.dump(data, f)
