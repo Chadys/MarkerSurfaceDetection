@@ -1,0 +1,40 @@
+{
+  "arch": "x86_64",
+  "auth": null,
+  "build": "h169cedb_0",
+  "build_number": 0,
+  "channel": "https://repo.continuum.io/pkgs/main/osx-64",
+  "depends": [],
+  "files": [
+    "include/opus/opus.h",
+    "include/opus/opus_defines.h",
+    "include/opus/opus_multistream.h",
+    "include/opus/opus_types.h",
+    "lib/libopus.0.dylib",
+    "lib/libopus.a",
+    "lib/libopus.dylib",
+    "lib/libopus.la",
+    "lib/pkgconfig/opus.pc",
+    "share/aclocal/opus.m4"
+  ],
+  "fn": "libopus-1.2.1-h169cedb_0.tar.bz2",
+  "license": "3-clause BSD",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/chadys/anaconda3/pkgs/libopus-1.2.1-h169cedb_0",
+    "type": 1
+  },
+  "md5": "d5c3f6e963c325ee3f36f8eeaeff8c04",
+  "name": "libopus",
+  "noarch": null,
+  "platform": "darwin",
+  "preferred_env": null,
+  "priority": 0,
+  "schannel": "defaults",
+  "size": 407023,
+  "subdir": "osx-64",
+  "timestamp": 1512490477885,
+  "url": "https://repo.continuum.io/pkgs/main/osx-64/libopus-1.2.1-h169cedb_0.tar.bz2",
+  "version": "1.2.1",
+  "with_features_depends": {}
+}

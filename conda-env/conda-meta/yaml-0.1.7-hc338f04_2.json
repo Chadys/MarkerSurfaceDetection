@@ -1,0 +1,35 @@
+{
+  "arch": "x86_64",
+  "auth": null,
+  "build": "hc338f04_2",
+  "build_number": 2,
+  "channel": "https://repo.continuum.io/pkgs/main/osx-64",
+  "depends": [],
+  "files": [
+    "include/yaml.h",
+    "lib/libyaml-0.2.dylib",
+    "lib/libyaml.a",
+    "lib/libyaml.dylib",
+    "lib/libyaml.la",
+    "lib/pkgconfig/yaml-0.1.pc"
+  ],
+  "fn": "yaml-0.1.7-hc338f04_2.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/Users/chadys/anaconda3/pkgs/yaml-0.1.7-hc338f04_2",
+    "type": 1
+  },
+  "md5": "dab654341f57e56b615a678800262b0e",
+  "name": "yaml",
+  "noarch": null,
+  "platform": "darwin",
+  "preferred_env": null,
+  "priority": 0,
+  "schannel": "defaults",
+  "size": 82035,
+  "subdir": "osx-64",
+  "timestamp": 1510610700770,
+  "url": "https://repo.continuum.io/pkgs/main/osx-64/yaml-0.1.7-hc338f04_2.tar.bz2",
+  "version": "0.1.7",
+  "with_features_depends": {}
+}

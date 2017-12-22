@@ -1,0 +1,72 @@
+	    SUMMARY OF THE HDF5 CONFIGURATION
+	    =================================
+
+General Information:
+-------------------
+		   HDF5 Version: 1.8.18
+		  Configured on: Thu Nov 16 14:19:07 CST 2017
+		  Configured by: root@atx-osx109-2.corp.continuum.io
+		 Configure mode: production
+		    Host system: x86_64-apple-darwin13.4.0
+	      Uname information: Darwin atx-osx109-2.corp.continuum.io 13.4.0 Darwin Kernel Version 13.4.0: Mon Jan 11 18:17:34 PST 2016; root:xnu-2422.115.15~1/RELEASE_X86_64 x86_64
+		       Byte sex: little-endian
+		      Libraries: static, shared
+	     Installation point: /Users/chadys/PycharmProjects/MarkerSurfaceDetection/conda-env
+
+Compiling Options:
+------------------
+               Compilation Mode: production
+                     C Compiler: /Users/chadys/PycharmProjects/MarkerSurfaceDetection/conda-env/bin/x86_64-apple-darwin13.4.0-clang
+                         CFLAGS: -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe
+                      H5_CFLAGS:  
+                      AM_CFLAGS: 
+                       CPPFLAGS: -D_FORTIFY_SOURCE=2 -mmacosx-version-min=10.9
+                    H5_CPPFLAGS:   -DNDEBUG -UH5_DEBUG_API
+                    AM_CPPFLAGS:  -I/Users/chadys/PycharmProjects/MarkerSurfaceDetection/conda-env/include
+               Shared C Library: yes
+               Static C Library: yes
+  Statically Linked Executables: no
+                        LDFLAGS: -pie -headerpad_max_install_names -Wl,-rpath,/Users/chadys/PycharmProjects/MarkerSurfaceDetection/conda-env/lib
+                     H5_LDFLAGS: 
+                     AM_LDFLAGS:  -L/Users/chadys/PycharmProjects/MarkerSurfaceDetection/conda-env/lib
+ 	 	Extra libraries: -lpthread -lz -ldl -lm 
+ 		       Archiver: /Users/chadys/PycharmProjects/MarkerSurfaceDetection/conda-env/bin/x86_64-apple-darwin13.4.0-ar
+ 		 	 Ranlib: /Users/chadys/PycharmProjects/MarkerSurfaceDetection/conda-env/bin/x86_64-apple-darwin13.4.0-ranlib
+ 	      Debugged Packages: 
+		    API Tracing: no
+
+Languages:
+----------
+                        Fortran: yes
+               Fortran Compiler: /Users/chadys/PycharmProjects/MarkerSurfaceDetection/conda-env/bin/x86_64-apple-darwin13.4.0-gfortran ( GNU Fortran (GCC) 4.8.5)
+          Fortran 2003 Compiler: yes
+                  Fortran Flags: 
+               H5 Fortran Flags:  -pedantic -Wall -Wconversion -Wunderflow -Wimplicit-interface -W -O2 -s
+               AM Fortran Flags: 
+         Shared Fortran Library: no
+         Static Fortran Library: yes
+
+                            C++: yes
+                   C++ Compiler: /Users/chadys/PycharmProjects/MarkerSurfaceDetection/conda-env/bin/x86_64-apple-darwin13.4.0-clang++ -stdlib=libc++
+                      C++ Flags: -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -std=c++14 -fmessage-length=0
+                   H5 C++ Flags:  
+                   AM C++ Flags: 
+             Shared C++ Library: yes
+             Static C++ Library: yes
+
+Features:
+---------
+                  Parallel HDF5: no
+             High Level library: yes
+                   Threadsafety: yes
+            Default API Mapping: v18
+ With Deprecated Public Symbols: yes
+         I/O filters (external): deflate(zlib)
+                            MPE: no
+                     Direct VFD: no
+                        dmalloc: no
+Clear file buffers before write: yes
+           Using memory checker: no
+         Function Stack Tracing: no
+      Strict File Format Checks: no
+   Optimization Instrumentation: no

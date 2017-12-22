@@ -1,0 +1,13 @@
+prefix=/Users/chadys/PycharmProjects/MarkerSurfaceDetection/conda-env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+modules=1
+
+Name: libXML
+Version: 2.9.4
+Description: libXML library version2.
+Requires:
+Libs: -L${libdir} -lxml2
+Libs.private: -L/Users/chadys/PycharmProjects/MarkerSurfaceDetection/conda-env/lib -licui18n -licuuc -licudata -lpthread -L/Users/chadys/PycharmProjects/MarkerSurfaceDetection/conda-env/lib -lz -L/Users/chadys/PycharmProjects/MarkerSurfaceDetection/conda-env/lib -llzma -L/Users/chadys/PycharmProjects/MarkerSurfaceDetection/conda-env/lib -liconv -lm  
+Cflags: -I${includedir}/libxml2 -I/Users/chadys/PycharmProjects/MarkerSurfaceDetection/conda-env/include 

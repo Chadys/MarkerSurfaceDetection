@@ -11,10 +11,16 @@ objp[:,:2] = np.mgrid[0:7,0:6].T.reshape(-1,2)
 objpoints = [] # 3d point in real world space
 imgpoints = [] # 2d points in image plane.
 
+
+# videoFile = "./calibration.mp4"
+# cap = cv2.VideoCapture(videoFile)
 cap = cv2.VideoCapture(0)
+
 found = 0
-while(found < 10):  # Here, 10 can be changed to whatever number you like to choose
+while(found < 30):  # Here, 10 can be changed to whatever number you like to choose
     ret, img = cap.read() # Capture frame-by-frame
+    if not ret:
+        exit(1)
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     # Find the chess board corners
     ret, corners = cv2.findChessboardCorners(gray, (7,6),None)

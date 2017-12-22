@@ -1,0 +1,18 @@
+prefix=/Users/chadys/PycharmProjects/MarkerSurfaceDetection/conda-env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+sysconfdir=${prefix}/etc
+localstatedir=${prefix}/var
+PACKAGE=fontconfig
+confdir=${sysconfdir}/fonts
+cachedir=${localstatedir}/cache/${PACKAGE}
+
+Name: Fontconfig
+Description: Font configuration and customization library
+Version: 2.12.4
+Requires:  freetype2
+Requires.private:  libxml-2.0
+Libs: -L${libdir} -lfontconfig
+Libs.private:  -L/Users/chadys/PycharmProjects/MarkerSurfaceDetection/conda-env/lib -lfreetype  -L/Users/chadys/PycharmProjects/MarkerSurfaceDetection/conda-env/lib -lxml2
+Cflags: -I${includedir}  -I/Users/chadys/PycharmProjects/MarkerSurfaceDetection/conda-env/include/freetype2  -I/Users/chadys/PycharmProjects/MarkerSurfaceDetection/conda-env/include/libxml2 -I/Users/chadys/PycharmProjects/MarkerSurfaceDetection/conda-env/include

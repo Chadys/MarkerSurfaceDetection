@@ -1,0 +1,13 @@
+prefix=/Users/chadys/PycharmProjects/MarkerSurfaceDetection/conda-env
+exec_prefix=/Users/chadys/PycharmProjects/MarkerSurfaceDetection/conda-env
+libdir=/Users/chadys/PycharmProjects/MarkerSurfaceDetection/conda-env/lib
+includedir=/Users/chadys/PycharmProjects/MarkerSurfaceDetection/conda-env/include
+
+Name: harfbuzz
+Description: HarfBuzz text shaping library ICU integration
+Version: 1.5.0
+
+Requires: harfbuzz
+Requires.private: icu-uc
+Libs: -L${libdir} -lharfbuzz-icu
+Cflags: -I${includedir}/harfbuzz

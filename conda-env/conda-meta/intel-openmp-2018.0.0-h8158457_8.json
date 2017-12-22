@@ -1,0 +1,32 @@
+{
+  "arch": "x86_64",
+  "auth": null,
+  "build": "h8158457_8",
+  "build_number": 8,
+  "channel": "https://repo.continuum.io/pkgs/main/osx-64",
+  "depends": [],
+  "files": [
+    "lib/libiomp5.dylib",
+    "lib/libiompstubs5.dylib"
+  ],
+  "fn": "intel-openmp-2018.0.0-h8158457_8.tar.bz2",
+  "license": "proprietary - Intel",
+  "license_family": "Proprietary",
+  "link": {
+    "source": "/Users/chadys/anaconda3/pkgs/intel-openmp-2018.0.0-h8158457_8",
+    "type": 1
+  },
+  "md5": "07a220749c5ecf305efdf53584902dfe",
+  "name": "intel-openmp",
+  "noarch": null,
+  "platform": "darwin",
+  "preferred_env": null,
+  "priority": 0,
+  "schannel": "defaults",
+  "size": 505092,
+  "subdir": "osx-64",
+  "timestamp": 1511377517964,
+  "url": "https://repo.continuum.io/pkgs/main/osx-64/intel-openmp-2018.0.0-h8158457_8.tar.bz2",
+  "version": "2018.0.0",
+  "with_features_depends": {}
+}

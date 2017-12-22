@@ -4,15 +4,15 @@ import cv2
 from cv2 import aruco
 import numpy as np
 
-calibrationFile = "calibration.yaml"
-calibrationParams = cv2.FileStorage(calibrationFile, cv2.FILE_STORAGE_READ)
-camera_matrix = calibrationParams.getNode("cameraMatrix").mat()
-dist_coeffs = calibrationParams.getNode("distCoeffs").mat()
+# calibrationFile = "calibration.yaml"
+# calibrationParams = cv2.FileStorage(calibrationFile, cv2.FILE_STORAGE_READ)
+# camera_matrix = calibrationParams.getNode("cameraMatrix").mat()
+# dist_coeffs = calibrationParams.getNode("distCoeffs").mat()
 # If doesn't work
-# with open('calibration.yaml') as f:
-#     loadeddict = yaml.load(f)
-# camera_matrix = loadeddict.get('cameraMatrix')
-# dist_coeffs = loadeddict.get('distCoeffs')
+with open('calibration.yaml') as f:
+    loadeddict = yaml.load(f)
+camera_matrix = np.asarray(loadeddict.get('cameraMatrix'))
+dist_coeffs = np.asarray(loadeddict.get('distCoeffs'))
 
 aruco_dict = aruco.getPredefinedDictionary( aruco.DICT_6X6_1000 )
 markerLength = 40   # Here, our measurement unit is centimetre.
@@ -32,7 +32,7 @@ while(True):
         corners, ids, rejectedImgPoints = aruco.detectMarkers(frame_gray, aruco_dict, parameters=arucoParams)  # First, detect markers
         aruco.refineDetectedMarkers(frame_gray, board, corners, ids, rejectedImgPoints)
 
-        if ids != None: # if there is at least one marker detected
+        if ids is not None: # if there is at least one marker detected
             im_with_aruco_board = aruco.drawDetectedMarkers(frame, corners, ids, (0,255,0))
             retval, rvec, tvec = aruco.estimatePoseBoard(corners, ids, board, camera_matrix, dist_coeffs)  # posture estimation from a aruco board
             if retval != 0:

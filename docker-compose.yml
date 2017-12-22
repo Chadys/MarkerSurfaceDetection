@@ -5,4 +5,5 @@ services:
     volumes:
       - .:/opt/docker/src
     devices:
-      - “/dev/video0:/dev/video0”
+      - "/dev/video0:/dev/video0"
+#    privileged: true

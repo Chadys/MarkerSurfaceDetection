@@ -1,0 +1,36 @@
+{
+  "arch": "x86_64",
+  "auth": null,
+  "build": "hca0a616_3",
+  "build_number": 3,
+  "channel": "https://repo.continuum.io/pkgs/main/osx-64",
+  "depends": [],
+  "files": [
+    "include/pixman-1/pixman-version.h",
+    "include/pixman-1/pixman.h",
+    "lib/libpixman-1.0.dylib",
+    "lib/libpixman-1.a",
+    "lib/libpixman-1.dylib",
+    "lib/libpixman-1.la",
+    "lib/pkgconfig/pixman-1.pc"
+  ],
+  "fn": "pixman-0.34.0-hca0a616_3.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/Users/chadys/anaconda3/pkgs/pixman-0.34.0-hca0a616_3",
+    "type": 1
+  },
+  "md5": "e605b180f6e4e87da43353f0916ba86f",
+  "name": "pixman",
+  "noarch": null,
+  "platform": "darwin",
+  "preferred_env": null,
+  "priority": 0,
+  "schannel": "defaults",
+  "size": 611691,
+  "subdir": "osx-64",
+  "timestamp": 1510176600412,
+  "url": "https://repo.continuum.io/pkgs/main/osx-64/pixman-0.34.0-hca0a616_3.tar.bz2",
+  "version": "0.34.0",
+  "with_features_depends": {}
+}

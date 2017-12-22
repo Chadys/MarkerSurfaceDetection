@@ -1,0 +1,53 @@
+{
+  "arch": "x86_64",
+  "auth": null,
+  "build": "hd1e8b91_4",
+  "build_number": 4,
+  "channel": "https://repo.continuum.io/pkgs/main/osx-64",
+  "depends": [
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "files": [
+    "bin/libpng-config",
+    "bin/libpng16-config",
+    "bin/png-fix-itxt",
+    "bin/pngfix",
+    "include/libpng16/png.h",
+    "include/libpng16/pngconf.h",
+    "include/libpng16/pnglibconf.h",
+    "include/png.h",
+    "include/pngconf.h",
+    "include/pnglibconf.h",
+    "lib/libpng.a",
+    "lib/libpng.dylib",
+    "lib/libpng.la",
+    "lib/libpng16.16.dylib",
+    "lib/libpng16.a",
+    "lib/libpng16.dylib",
+    "lib/libpng16.la",
+    "lib/pkgconfig/libpng.pc",
+    "lib/pkgconfig/libpng16.pc",
+    "share/man/man3/libpng.3",
+    "share/man/man3/libpngpf.3",
+    "share/man/man5/png.5"
+  ],
+  "fn": "libpng-1.6.32-hd1e8b91_4.tar.bz2",
+  "license": "zlib/libpng",
+  "link": {
+    "source": "/Users/chadys/anaconda3/pkgs/libpng-1.6.32-hd1e8b91_4",
+    "type": 1
+  },
+  "md5": "60b315b1dfd096a810b77c8b9daecd62",
+  "name": "libpng",
+  "noarch": null,
+  "platform": "darwin",
+  "preferred_env": null,
+  "priority": 0,
+  "schannel": "defaults",
+  "size": 324851,
+  "subdir": "osx-64",
+  "timestamp": 1511298427849,
+  "url": "https://repo.continuum.io/pkgs/main/osx-64/libpng-1.6.32-hd1e8b91_4.tar.bz2",
+  "version": "1.6.32",
+  "with_features_depends": {}
+}

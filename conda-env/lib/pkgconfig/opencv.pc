@@ -1,0 +1,14 @@
+# Package Information for pkg-config
+
+prefix=/Users/chadys/PycharmProjects/MarkerSurfaceDetection/conda-env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir_old=${prefix}/include/opencv
+includedir_new=${prefix}/include
+
+Name: OpenCV
+Description: Open Source Computer Vision Library
+Version: 3.3.1
+Libs: -L${exec_prefix}/lib -llibopencv_stitching.3.3.1.dylib -llibopencv_superres.3.3.1.dylib -llibopencv_videostab.3.3.1.dylib -llibopencv_photo.3.3.1.dylib -llibopencv_aruco.3.3.1.dylib -llibopencv_bgsegm.3.3.1.dylib -llibopencv_bioinspired.3.3.1.dylib -llibopencv_ccalib.3.3.1.dylib -llibopencv_dpm.3.3.1.dylib -llibopencv_face.3.3.1.dylib -llibopencv_freetype.3.3.1.dylib -llibopencv_fuzzy.3.3.1.dylib -llibopencv_hdf.3.3.1.dylib -llibopencv_img_hash.3.3.1.dylib -llibopencv_line_descriptor.3.3.1.dylib -llibopencv_optflow.3.3.1.dylib -llibopencv_reg.3.3.1.dylib -llibopencv_rgbd.3.3.1.dylib -llibopencv_saliency.3.3.1.dylib -llibopencv_stereo.3.3.1.dylib -llibopencv_structured_light.3.3.1.dylib -llibopencv_phase_unwrapping.3.3.1.dylib -llibopencv_surface_matching.3.3.1.dylib -llibopencv_tracking.3.3.1.dylib -llibopencv_datasets.3.3.1.dylib -llibopencv_text.3.3.1.dylib -llibopencv_dnn.3.3.1.dylib -llibopencv_plot.3.3.1.dylib -llibopencv_xfeatures2d.3.3.1.dylib -llibopencv_shape.3.3.1.dylib -llibopencv_video.3.3.1.dylib -llibopencv_ml.3.3.1.dylib -llibopencv_ximgproc.3.3.1.dylib -llibopencv_calib3d.3.3.1.dylib -llibopencv_features2d.3.3.1.dylib -llibopencv_highgui.3.3.1.dylib -llibopencv_videoio.3.3.1.dylib -llibopencv_flann.3.3.1.dylib -llibopencv_xobjdetect.3.3.1.dylib -llibopencv_imgcodecs.3.3.1.dylib -llibopencv_objdetect.3.3.1.dylib -llibopencv_xphoto.3.3.1.dylib -llibopencv_imgproc.3.3.1.dylib -llibopencv_core.3.3.1.dylib
+Libs.private: 
+Cflags: -I${includedir_old} -I${includedir_new}

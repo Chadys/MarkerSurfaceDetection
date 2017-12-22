@@ -1,0 +1,14 @@
+prefix=/Users/chadys/PycharmProjects/MarkerSurfaceDetection/conda-env
+exec_prefix=/Users/chadys/PycharmProjects/MarkerSurfaceDetection/conda-env
+libdir=/Users/chadys/PycharmProjects/MarkerSurfaceDetection/conda-env/lib
+includedir=/Users/chadys/PycharmProjects/MarkerSurfaceDetection/conda-env/include
+
+Name: FreeType 2
+URL: http://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 20.0.14
+Requires:
+Requires.private: zlib, libpng
+Libs: -L${libdir} -lfreetype
+Libs.private: 
+Cflags: -I${includedir}/freetype2
